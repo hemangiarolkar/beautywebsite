@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>home page</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <!-- CSS only -->
+<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
+</head>
+<body>
+
+
+<!-- navbar -->
+<div class="row" style="background-color: black;">
+    <div class="col-6" style="color: white;"> <i class="fa fa-envelope m-1" aria-hidden="true"></i> contact@example.com</div>
+    <div class="col-2" style="color: white;"> <i class="fa fa-clock-o" aria-hidden="true"></i> Mon-Fri: 10:00 - 18:00</div>
+    <div class="col-4" style="color: white;"> <i class="fa fa-map-marker" aria-hidden="true"></i> 25 West 21th Street, Miami FL, USA</div>
+</div>
+<div class="container">
+    <nav class="nav justify-content-between">
+        <a class="navbar-brand" href="#"><img src="images/logo-1.png"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <ul class="nav justify-content-center m-3">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="product.html">Product</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="blog.html">Blog</a>
+                  </li>
+              </ul>
+
+              <ul class="nav">
+                <button type="button" class="btn position-relative m-3" style="background-color: lightgray;">
+                    <i class="fa fa-search" aria-hidden="true"></i></button>
+                <button type="button" class="btn position-relative m-3" style="background-color: lightgray;">
+                    <i class="fa fa-user-o" aria-hidden="true"></i></button>
+                <button type="button" class="btn position-relative m-3" style="background-color: lightgray;">
+                    <i class="fa fa-heart-o" aria-hidden="true"></i>
+                    <span class="position-absolute top-0 start-100 translate-middle p-1 border border-light rounded-circle badge">
+                    0</span>
+                </button>
+                <button type="button" class="btn position-relative m-3" style="background-color: lightgray;">
+                    <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+                    <span class="position-absolute top-0 start-100 translate-middle p-1 border border-light rounded-circle badge">
+                    0</span>
+                </button>
+              </ul>
+      </nav>
+
+</div>
+
+<!-- slider -->
+
+<div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-inner home1">
+        <div class="carousel-item active d-flex">
+            <div class="row">
+            <div class="col-6"> 
+            <img src="images/slider-home2-01.png" class="d-block img1"  alt="..."></div>
+        
+        <div class="home_div1 col-5 text-center">
+            <h3><i>Beauty Cosmetics</i></h3>
+            <h2 class="display-5">Natural Skincare</h2>
+            <h2 class="display-5">Makeup Enhance</h2>
+        </div></div></div>
+        <div class="carousel-item">
+            <img src="images/slider-home2-02.png" class="d-block" alt="...">
+            <div class="home_div1 col-5 text-center">
+              <h3><i>Beauty Cosmetics</i></h3>
+              <h2 class="display-5">Herbal with</h2>
+              <h2 class="display-5">Professional Touch</h2>
+          </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+    <div class="container-fluid" style="background-color: #FAF2E4;">
+        <div class="row p-5">
+            <div class="col-4">
+                <h5 style="color: #C4743E;">FREE SAMPLES</h5>
+                <p>Test, try and discover new products with 
+                <br>every purchase, every day.</p>
+            </div>
+            <div class="col-4">
+                <h5 style="color: #C4743E;">EXPERT TIPS & ADVICE</h5>
+                <p>Our Consultants are true professionals trained 
+                <br>by an elite accreditation process.</p>
+                
+            </div>
+            <div class="col-4">
+                <h5 style="color: #C4743E;">SMART REWARDS</h5>
+                <p>Our loyalty program rewards you with smart 
+                <br>beauty benefits.</p>
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+      <h3 class="text-center pt-3 ">Latest Products</h3>
+      
+      <ul style="" class="nav nav-pills mb-3 d-flex justify-content-around" style="border: 1px solid black;" id="pills-tab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+              <div class="col-2 px-1">
+                  <div class="icon-div margin icon-div d-flex justify-content-center align-items-center"><img src="./images/makeup.png" class="img-fluid" width="50px"></div>
+                  <h5 class="text-center pt-3" style="color: black;">Beauty</h5>
+              </div>  
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link btn_" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">
+              <div class="col-2 px-1">
+                  <div class="icon-div margin icon-div d-flex justify-content-center align-items-center"><img src="./images/big-makeup-box (1).png" class="img-fluid" width="50px"></div>
+                  <h5 class="text-center pt-3" style="color: black;">Makeup</h5>
+              </div>
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">
+              <div class="col-2 px-1">
+                  <div class="icon-div margin icon-div d-flex justify-content-center align-items-center"><img src="./images/lipsticks.png" class="img-fluid" width="50px"></div>
+                  <h5 class="text-center pt-3" style="color: black;">Lipstick</h5>
+              </div>
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+              <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">
+                  <div class="col-2 px-1">
+                      <div class="icon-div margin icon-div d-flex justify-content-center align-items-center"><img src="./images/finger-with-nail (1).png" class="img-fluid" width="50px"></div>
+                      <h5 class="text-center pt-3" style="color: black;">Nails</h5>
+                  </div>
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">
+                  <div class="col-2 px-1">
+                      <div class="icon-div margin icon-div d-flex justify-content-center align-items-center"><img src="./images/fragrance.png" class="img-fluid" width="50px"></i></div>
+                      <h5 class="text-center pt-3" style="color: black;">Perfume</h5>
+                  </div>
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">
+                  <div class="cols-2 px-1">
+                      <div class="icon-div margin icon-div d-flex justify-content-center align-items-center"><img src="./images/visible-opened-eye-interface-option (1).png" class="img-fluid" width="50px"></div>
+                      <h5 class="text-center pt-3" style="color: black;">Eyes Care</h5>
+                  </div>
+              </button>
+            </li>
+        </ul>
+        <hr>
+        <div class="tab-content" id="pills-tabContent">
+          <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+            <div class="row">
+              <div class="col-md-3">
+                  <div class="homelatestdivs homelatestdivs1">
+                      <div class="circlewhite"><i class="fa fa-heart-o" aria-hidden="true"></i></div>
+                      <div class="circlewhite circlewhite2"><i class="fa fa-exchange" aria-hidden="true"></i>
+                      </div>
+                      <div class="circlewhite circlewhite3"><i class="fa fa-eye" aria-hidden="true"></i></div>
+                      
+                     <button class="bg-dark btn-2">Add to dark</button>
+                  </div>
+                  <div class="latestpro text-muted d-flex justify-content-between">111SKIN
+                      <span style="color: #F3D224">
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                  </span></div>
+                  <p>Butter Gloss - Creme Brulee</p>
+                  <p class="orangetext"><strong>$240.00</strong></p>
+              </div>
+              <div class="col-md-3">
+                  <div class="homelatestdivs homelatestdivs2">
+                      <div class="circlewhite"><i class="fa fa-heart-o" aria-hidden="true"></i></div>
+                      <div class="circlewhite circlewhite2"><i class="fa fa-exchange" aria-hidden="true"></i>
+                      </div>
+                      <div class="circlewhite circlewhite3"><i class="fa fa-eye" aria-hidden="true"></i></div>
+                      
+                     <button class="bg-dark btn-2">Add to dark</button>
+                  </div>
+                  <div class="latestpro text-muted d-flex justify-content-between">Aveda
+                    </div>
+                <p>Cool Coverage</p>
+                <p class="orangetext"><strong>$138.00 - $230.00</strong></p>
+
+              </div>
+              <div class="col-md-3">
+                  <div class="homelatestdivs homelatestdivs3">
+                      <div class="circlewhite"><i class="fa fa-heart-o" aria-hidden="true"></i></div>
+                      <div class="circlewhite circlewhite2"><i class="fa fa-exchange" aria-hidden="true"></i>
+                      </div>
+                      <div class="circlewhite circlewhite3"><i class="fa fa-eye" aria-hidden="true"></i></div>
+                      
+                     <button class="bg-dark btn-2">Add to dark</button>
+                  </div>
+                  <div class="latestpro text-muted d-flex justify-content-between">A.D.C Beauty
+                    <span style="color: #F3D224">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                </span></div>
+                <p>Happy Highlights</p>
+                <p class="orangetext"><strong>$410.00</strong></p>
+
+              </div>
+              <div class="col-md-3">
+                  <div class="homelatestdivs homelatestdivs4">
+                      <div class="circlewhite"><i class="fa fa-heart-o" aria-hidden="true"></i></div>
+                      <div class="circlewhite circlewhite2"><i class="fa fa-exchange" aria-hidden="true"></i>
+                      </div>
+                      <div class="circlewhite circlewhite3"><i class="fa fa-eye" aria-hidden="true"></i></div>
+                      
+                     <button class="bg-dark btn-2">Add to dark</button>
+                  </div>
+                  <div class="latestpro text-muted d-flex justify-content-between">Amanda
+                  </div>
+              <p>Solimo Eyes Makeup Remover</p>
+              <p class="orangetext"><strong>$136.00</strong></p>
+
+              </div>
+          </div>
+          </div>
+          <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+              <div class="row">
+                  <div class="col-md-3">
+                      <div class="homelatestdivs homelatestdivs1">
+                          <div class="circlewhite"><i class="fa fa-heart-o" aria-hidden="true"></i></div>
+                          <div class="circlewhite circlewhite2"><i class="fa fa-exchange" aria-hidden="true"></i>
+                          </div>
+                          <div class="circlewhite circlewhite3"><i class="fa fa-eye" aria-hidden="true"></i></div>
+                          
+                         <button class="bg-dark btn-2">Add to dark</button>
+                      </div>
+                      <div class="latestpro text-muted d-flex justify-content-between">111SKIN
+                          <span style="color: #F3D224">
+                              <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                      </span></div>
+                      <p>Butter Gloss - Creme Brulee</p>
+                      <p class="orangetext"><strong>$240.00</strong></p>
+                  </div>
+                  <div class="col-md-3">
+                      <div class="homelatestdivs homelatestdivs2">
+                          <div class="circlewhite"><i class="fa fa-heart-o" aria-hidden="true"></i></div>
+                          <div class="circlewhite circlewhite2"><i class="fa fa-exchange" aria-hidden="true"></i>
+                          </div>
+                          <div class="circlewhite circlewhite3"><i class="fa fa-eye" aria-hidden="true"></i></div>
+                          
+                         <button class="bg-dark btn-2">Add to dark</button>
+                      </div>
+                      <div class="latestpro text-muted d-flex justify-content-between">Aveda
+                        </div>
+                    <p>Cool Coverage</p>
+                    <p class="orangetext"><strong>$138.00 - $230.00</strong></p>
+
+                  </div>
+                  <div class="col-md-3">
+                      <div class="homelatestdivs homelatestdivs3">
+                          <div class="circlewhite"><i class="fa fa-heart-o" aria-hidden="true"></i></div>
+                          <div class="circlewhite circlewhite2"><i class="fa fa-exchange" aria-hidden="true"></i>
+                          </div>
+                          <div class="circlewhite circlewhite3"><i class="fa fa-eye" aria-hidden="true"></i></div>
+                          
+                         <button class="bg-dark btn-2">Add to dark</button>
+                      </div>
+                      <div class="latestpro text-muted d-flex justify-content-between">A.D.C Beauty
+                        <span style="color: #F3D224">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                    </span></div>
+                    <p>Happy Highlights</p>
+                    <p class="orangetext"><strong>$410.00</strong></p>
+
+                  </div>
+                  <div class="col-md-3">
+                      <div class="homelatestdivs homelatestdivs4">
+                          <div class="circlewhite"><i class="fa fa-heart-o" aria-hidden="true"></i></div>
+                          <div class="circlewhite circlewhite2"><i class="fa fa-exchange" aria-hidden="true"></i>
+                          </div>
+                          <div class="circlewhite circlewhite3"><i class="fa fa-eye" aria-hidden="true"></i></div>
+                          
+                         <button class="bg-dark btn-2">Add to dark</button>
+                      </div>
+                      <div class="latestpro text-muted d-flex justify-content-between">Amanda
+                      </div>
+                  <p>Solimo Eyes Makeup Remover</p>
+                  <p class="orangetext"><strong>$136.00</strong></p>
+
+                  </div>
+              </div>
+          </div>
+          <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+            <div class="row">
+              <div class="col-md-3">
+                  <div class="homelatestdivs homelatestdivs1">
+                      <div class="circlewhite"><i class="fa fa-heart-o" aria-hidden="true"></i></div>
+                      <div class="circlewhite circlewhite2"><i class="fa fa-exchange" aria-hidden="true"></i>
+                      </div>
+                      <div class="circlewhite circlewhite3"><i class="fa fa-eye" aria-hidden="true"></i></div>
+                      
+                     <button class="bg-dark btn-2">Add to dark</button>
+                  </div>
+                  <div class="latestpro text-muted d-flex justify-content-between">111SKIN
+                      <span style="color: #F3D224">
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                  </span></div>
+                  <p>Butter Gloss - Creme Brulee</p>
+                  <p class="orangetext"><strong>$240.00</strong></p>
+              </div>
+              <div class="col-md-3">
+                  <div class="homelatestdivs homelatestdivs2">
+                      <div class="circlewhite"><i class="fa fa-heart-o" aria-hidden="true"></i></div>
+                      <div class="circlewhite circlewhite2"><i class="fa fa-exchange" aria-hidden="true"></i>
+                      </div>
+                      <div class="circlewhite circlewhite3"><i class="fa fa-eye" aria-hidden="true"></i></div>
+                      
+                     <button class="bg-dark btn-2">Add to dark</button>
+                  </div>
+                  <div class="latestpro text-muted d-flex justify-content-between">Aveda
+                    </div>
+                <p>Cool Coverage</p>
+                <p class="orangetext"><strong>$138.00 - $230.00</strong></p>
+
+              </div>
+              <div class="col-md-3">
+                  <div class="homelatestdivs homelatestdivs3">
+                      <div class="circlewhite"><i class="fa fa-heart-o" aria-hidden="true"></i></div>
+                      <div class="circlewhite circlewhite2"><i class="fa fa-exchange" aria-hidden="true"></i>
+                      </div>
+                      <div class="circlewhite circlewhite3"><i class="fa fa-eye" aria-hidden="true"></i></div>
+                      
+                     <button class="bg-dark btn-2">Add to dark</button>
+                  </div>
+                  <div class="latestpro text-muted d-flex justify-content-between">A.D.C Beauty
+                    <span style="color: #F3D224">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                </span></div>
+                <p>Happy Highlights</p>
+                <p class="orangetext"><strong>$410.00</strong></p>
+
+              </div>
+              <div class="col-md-3">
+                  <div class="homelatestdivs homelatestdivs4">
+                      <div class="circlewhite"><i class="fa fa-heart-o" aria-hidden="true"></i></div>
+                      <div class="circlewhite circlewhite2"><i class="fa fa-exchange" aria-hidden="true"></i>
+                      </div>
+                      <div class="circlewhite circlewhite3"><i class="fa fa-eye" aria-hidden="true"></i></div>
+                      
+                     <button class="bg-dark btn-2">Add to dark</button>
+                  </div>
+                  <div class="latestpro text-muted d-flex justify-content-between">Amanda
+                  </div>
+              <p>Solimo Eyes Makeup Remover</p>
+              <p class="orangetext"><strong>$136.00</strong></p>
+
+              </div>
+          </div>
+          </div>
+          <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+            <div class="row">
+              <div class="col-md-3">
+                  <div class="homelatestdivs homelatestdivs1">
+                      <div class="circlewhite"><i class="fa fa-heart-o" aria-hidden="true"></i></div>
+                      <div class="circlewhite circlewhite2"><i class="fa fa-exchange" aria-hidden="true"></i>
+                      </div>
+                      <div class="circlewhite circlewhite3"><i class="fa fa-eye" aria-hidden="true"></i></div>
+                      
+                     <button class="bg-dark btn-2">Add to dark</button>
+                  </div>
+                  <div class="latestpro text-muted d-flex justify-content-between">111SKIN
+                      <span style="color: #F3D224">
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                  </span></div>
+                  <p>Butter Gloss - Creme Brulee</p>
+                  <p class="orangetext"><strong>$240.00</strong></p>
+              </div>
+              <div class="col-md-3">
+                  <div class="homelatestdivs homelatestdivs2">
+                      <div class="circlewhite"><i class="fa fa-heart-o" aria-hidden="true"></i></div>
+                      <div class="circlewhite circlewhite2"><i class="fa fa-exchange" aria-hidden="true"></i>
+                      </div>
+                      <div class="circlewhite circlewhite3"><i class="fa fa-eye" aria-hidden="true"></i></div>
+                      
+                     <button class="bg-dark btn-2">Add to dark</button>
+                  </div>
+                  <div class="latestpro text-muted d-flex justify-content-between">Aveda
+                    </div>
+                <p>Cool Coverage</p>
+                <p class="orangetext"><strong>$138.00 - $230.00</strong></p>
+
+              </div>
+              <div class="col-md-3">
+                  <div class="homelatestdivs homelatestdivs3">
+                      <div class="circlewhite"><i class="fa fa-heart-o" aria-hidden="true"></i></div>
+                      <div class="circlewhite circlewhite2"><i class="fa fa-exchange" aria-hidden="true"></i>
+                      </div>
+                      <div class="circlewhite circlewhite3"><i class="fa fa-eye" aria-hidden="true"></i></div>
+                      
+                     <button class="bg-dark btn-2">Add to dark</button>
+                  </div>
+                  <div class="latestpro text-muted d-flex justify-content-between">A.D.C Beauty
+                    <span style="color: #F3D224">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                </span></div>
+                <p>Happy Highlights</p>
+                <p class="orangetext"><strong>$410.00</strong></p>
+
+              </div>
+              <div class="col-md-3">
+                  <div class="homelatestdivs homelatestdivs4">
+                      <div class="circlewhite"><i class="fa fa-heart-o" aria-hidden="true"></i></div>
+                      <div class="circlewhite circlewhite2"><i class="fa fa-exchange" aria-hidden="true"></i>
+                      </div>
+                      <div class="circlewhite circlewhite3"><i class="fa fa-eye" aria-hidden="true"></i></div>
+                      
+                     <button class="bg-dark btn-2">Add to dark</button>
+                  </div>
+                  <div class="latestpro text-muted d-flex justify-content-between">Amanda
+                  </div>
+              <p>Solimo Eyes Makeup Remover</p>
+              <p class="orangetext"><strong>$136.00</strong></p>
+
+              </div>
+          </div>
+          </div>
+          <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+            <div class="row">
+              <div class="col-md-3">
+                  <div class="homelatestdivs homelatestdivs1">
+                      <div class="circlewhite"><i class="fa fa-heart-o" aria-hidden="true"></i></div>
+                      <div class="circlewhite circlewhite2"><i class="fa fa-exchange" aria-hidden="true"></i>
+                      </div>
+                      <div class="circlewhite circlewhite3"><i class="fa fa-eye" aria-hidden="true"></i></div>
+                      
+                     <button class="bg-dark btn-2">Add to dark</button>
+                  </div>
+                  <div class="latestpro text-muted d-flex justify-content-between">111SKIN
+                      <span style="color: #F3D224">
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                  </span></div>
+                  <p>Butter Gloss - Creme Brulee</p>
+                  <p class="orangetext"><strong>$240.00</strong></p>
+              </div>
+              <div class="col-md-3">
+                  <div class="homelatestdivs homelatestdivs2">
+                      <div class="circlewhite"><i class="fa fa-heart-o" aria-hidden="true"></i></div>
+                      <div class="circlewhite circlewhite2"><i class="fa fa-exchange" aria-hidden="true"></i>
+                      </div>
+                      <div class="circlewhite circlewhite3"><i class="fa fa-eye" aria-hidden="true"></i></div>
+                      
+                     <button class="bg-dark btn-2">Add to dark</button>
+                  </div>
+                  <div class="latestpro text-muted d-flex justify-content-between">Aveda
+                    </div>
+                <p>Cool Coverage</p>
+                <p class="orangetext"><strong>$138.00 - $230.00</strong></p>
+
+              </div>
+              <div class="col-md-3">
+                  <div class="homelatestdivs homelatestdivs3">
+                      <div class="circlewhite"><i class="fa fa-heart-o" aria-hidden="true"></i></div>
+                      <div class="circlewhite circlewhite2"><i class="fa fa-exchange" aria-hidden="true"></i>
+                      </div>
+                      <div class="circlewhite circlewhite3"><i class="fa fa-eye" aria-hidden="true"></i></div>
+                      
+                     <button class="bg-dark btn-2">Add to dark</button>
+                  </div>
+                  <div class="latestpro text-muted d-flex justify-content-between">A.D.C Beauty
+                    <span style="color: #F3D224">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                </span></div>
+                <p>Happy Highlights</p>
+                <p class="orangetext"><strong>$410.00</strong></p>
+
+              </div>
+              <div class="col-md-3">
+                  <div class="homelatestdivs homelatestdivs4">
+                      <div class="circlewhite"><i class="fa fa-heart-o" aria-hidden="true"></i></div>
+                      <div class="circlewhite circlewhite2"><i class="fa fa-exchange" aria-hidden="true"></i>
+                      </div>
+                      <div class="circlewhite circlewhite3"><i class="fa fa-eye" aria-hidden="true"></i></div>
+                      
+                     <button class="bg-dark btn-2">Add to dark</button>
+                  </div>
+                  <div class="latestpro text-muted d-flex justify-content-between">Amanda
+                  </div>
+              <p>Solimo Eyes Makeup Remover</p>
+              <p class="orangetext"><strong>$136.00</strong></p>
+
+              </div>
+          </div>
+          </div>
+          <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+            <div class="row">
+              <div class="col-md-3">
+                  <div class="homelatestdivs homelatestdivs1">
+                      <div class="circlewhite"><i class="fa fa-heart-o" aria-hidden="true"></i></div>
+                      <div class="circlewhite circlewhite2"><i class="fa fa-exchange" aria-hidden="true"></i>
+                      </div>
+                      <div class="circlewhite circlewhite3"><i class="fa fa-eye" aria-hidden="true"></i></div>
+                      
+                     <button class="bg-dark btn-2">Add to dark</button>
+                  </div>
+                  <div class="latestpro text-muted d-flex justify-content-between">111SKIN
+                      <span style="color: #F3D224">
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                  </span></div>
+                  <p>Butter Gloss - Creme Brulee</p>
+                  <p class="orangetext"><strong>$240.00</strong></p>
+              </div>
+              <div class="col-md-3">
+                  <div class="homelatestdivs homelatestdivs2">
+                      <div class="circlewhite"><i class="fa fa-heart-o" aria-hidden="true"></i></div>
+                      <div class="circlewhite circlewhite2"><i class="fa fa-exchange" aria-hidden="true"></i>
+                      </div>
+                      <div class="circlewhite circlewhite3"><i class="fa fa-eye" aria-hidden="true"></i></div>
+                      
+                     <button class="bg-dark btn-2">Add to dark</button>
+                  </div>
+                  <div class="latestpro text-muted d-flex justify-content-between">Aveda
+                    </div>
+                <p>Cool Coverage</p>
+                <p class="orangetext"><strong>$138.00 - $230.00</strong></p>
+
+              </div>
+              <div class="col-md-3">
+                  <div class="homelatestdivs homelatestdivs3">
+                      <div class="circlewhite"><i class="fa fa-heart-o" aria-hidden="true"></i></div>
+                      <div class="circlewhite circlewhite2"><i class="fa fa-exchange" aria-hidden="true"></i>
+                      </div>
+                      <div class="circlewhite circlewhite3"><i class="fa fa-eye" aria-hidden="true"></i></div>
+                      
+                     <button class="bg-dark btn-2">Add to dark</button>
+                  </div>
+                  <div class="latestpro text-muted d-flex justify-content-between">A.D.C Beauty
+                    <span style="color: #F3D224">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                </span></div>
+                <p>Happy Highlights</p>
+                <p class="orangetext"><strong>$410.00</strong></p>
+
+              </div>
+              <div class="col-md-3">
+                  <div class="homelatestdivs homelatestdivs4">
+                      <div class="circlewhite"><i class="fa fa-heart-o" aria-hidden="true"></i></div>
+                      <div class="circlewhite circlewhite2"><i class="fa fa-exchange" aria-hidden="true"></i>
+                      </div>
+                      <div class="circlewhite circlewhite3"><i class="fa fa-eye" aria-hidden="true"></i></div>
+                      
+                     <button class="bg-dark btn-2">Add to dark</button>
+                  </div>
+                  <div class="latestpro text-muted d-flex justify-content-between">Amanda
+                  </div>
+              <p>Solimo Eyes Makeup Remover</p>
+              <p class="orangetext"><strong>$136.00</strong></p>
+
+              </div>
+          </div>
+          </div>
+
+      </div>
+
+
+
+
+  </div>
+
+    
+
+    <div class="container-fluid offer_div mt-5">
+        <div class="row offer_row m-auto">
+            <div class="col offer_1">
+                <div class="offer_text">
+                <h5 class="fs-2">Up to 47% off
+                   <br> Cosmetics
+                </h5>
+                <p style="color: #C4743E;">From $22</p>
+                <button class="offer_btn mt-2">Shop now</button>
+
+            </div></div>
+            <div class="col ms-4 offer_2">
+                <div class="offer_text">
+                    <h5 class="fs-2">100% Natural
+                       <br>Skin & Body
+                    </h5>
+                    <p style="color: #C4743E;">From $36</p>
+                    <button class="offer_btn mt-2">Shop now</button>
+    
+                </div></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid mt-5">
+        <div class="care_text fs-1 fw-bold text-center">Body Care Results</div>
+        <div class="row">
+            <div class="col m-3">
+                <div class="card mb-3 card-head">
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <div class=" margin icon-div d-flex justify-content-center  align-items-center">
+                          <img src="./images/makeup.png" class="img-fluid" width="50px"></div>
+                        </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title">Natural Ingredients</h5>
+                          <p class="card-text">Last all day and gives you smooth gentle skin itself.
+                            Natural colors, functional and nutritional substances.
+                            Each product are certified by our quality control.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card mb-3 card-head">
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <div class="margin icon-div d-flex justify-content-center  align-items-center">
+                          <img src="./images/fragrance.png" class="img-fluid" width="50px">
+                        </div>
+                        </div> 
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title">No Mineral Oil</h5>
+                          <p class="card-text">It enhances your beauty without damaging it Pleasant
+                            aroma of naturally made fragrance Oils. Natural Aloe
+                            Vera, honey, papaya, pulp, argan oil...
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card mb-3 card-head">
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <div class="margin icon-div d-flex justify-content-center align-items-center" >
+                          <img src="./images/lipsticks.png" class="img-fluid" width="50px">
+                        </div>
+                        </div> 
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title">Clean Cosmetics</h5>
+                          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Cras vel mi quam. Fusce vehicula vitae mauris sit amet
+                            tempor donec consectetur
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            <div class="col">
+               <img src="./images/banner-home2-03-1.png" class="img-fluid">
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container-fluid">
+      <h2 class="text-center"><strong>Top Stories</strong></h2>
+      <div class="row">
+        <div class="col">
+          <div class="pt-5">
+            <div class="divsgift position-relative">
+                <span class="octomber21">OCTOMBER 21,2021</span>
+        
+                </div>
+               <p class="text-muted pt-3">Cream Blush, Gifts set</p>
+               <h4 class="pt-3">Proin velit metus placerat quis enim</h4>
+               
+               <span class="text-muted pt-3">Admin</span><span class="text-muted">0 comments</span>
+               <hr>
+               <button type="button" class="btn btn-dark">Read more</button>
+        </div>
+        </div>
+        <div class="col">
+          <div class="pt-5">
+            <div class="divsgift divsgift7 position-relative">
+                <span class="octomber21">OCTOMBER 21,2021</span>
+        
+                </div>
+               <p class="text-muted pt-3">Gifts set, Skin care</p>
+               <h4 class="pt-3">Why Ignoring fashion Will Cost You Time</h4>
+               
+               <span class="text-muted pt-3">Admin</span><span class="text-muted">0 comments</span>
+               <hr>
+               <button type="button" class="btn btn-dark">Read more</button>
+        </div>
+        </div>
+        <div class="col">
+          <div class="pt-5">
+            <div class="divsgift divsgift3 position-relative">
+                <span class="octomber21">OCTOMBER 21,2021</span>
+        
+                </div>
+               <p class="text-muted pt-3">Gifts set,Make up</p>
+               <h4 class="pt-3">A Beginner’s Guide to Fashion</h4>
+               
+               <span class="text-muted pt-3">Admin</span><span class="text-muted">0 comments</span>
+               <hr>
+               <button type="button" class="btn btn-dark">Read more</button>
+        </div>
+        </div>
+      </div>
+
+    </div>
+
+
+    <div class="container-fluid below-div pt-5">
+      <div class="row row row-cols-2 row-cols-lg-5">
+         <div class="col p-0">
+          <img src="./images/image1.jpeg" class="img-fluid">
+        </div>
+        <div class="col p-0">
+          <img src="./images/image2.jpeg" class="img-fluid">
+        </div>
+        <div class="col p-0">
+          <img src="./images/image3.jpeg" class="img-fluid">
+        </div>
+        <div class="col p-0">
+          <img src="./images/image4.jpeg" class="img-fluid">
+        </div>
+        <div class="col p-0">
+          <img src="./images/image5.jpeg" class="img-fluid">
+        </div>
+        <div class="col p-0">
+          <img src="./images/image6.jpeg" class="img-fluid">
+        </div>
+        <div class="col p-0">
+          <img src="./images/image7.jpeg" class="img-fluid">
+        </div>
+        <div class="col p-0">
+          <img src="./images/image8.jpeg" class="img-fluid">
+        </div>
+        <div class="col p-0">
+          <img src="./images/image9.jpeg" class="img-fluid">
+        </div>
+        <div class="col p-0">
+          <img src="./images/image10.jpeg" class="img-fluid">
+        </div>
+      </div>
+
+      <div class="upper-div text-center pt-5">
+        <span style="color: #C4743E;"><p>INSTAGRAM</p></span>
+        <h1>harademo199x</h1>
+        <h4>FOLLOW US NOW</h4>
+
+      </div>
+
+    </div>
+
+<div class="container-fluid pt-5" style="background-color: #F5F5F5;">
+        <div class="row m-5 pt-5">
+            <div class="col-12 col-lg-3 center">
+                <h4>Contact Us</h4>
+                <p>If you have any question, please contact us at support@example.com</p>
+            </div>
+            <div class="col-12 col-lg-3 center">
+                <h4>Store Location</h4>
+                <p>Address: 25 West 21th Street, Miami FL, USA </p>
+                <h4>Open Hours</h4>
+                <p>Monday – Saturday: 8:00 am – 4:00pm
+                    Sunday: Close</p>
+    
+            </div>
+            <div class="col-12 col-lg-3 center">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li>Shipping & Returns</li>
+                    <li>Privacy Policy</li>
+                    <li>Term Of Use</li>
+                    <li>Wishlist</li>
+                    <li>Compare</li>
+                    <li>Subscribe</li>
+                </ul>
+    
+            </div>
+            <div class="col-12 col-lg-3 center">
+                <h4>Sign Up for Our Newsletter</h4>
+                <p>Leave your email to get all hot deals & news 
+                    <br>which benefit you most!</p>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" style="border: none;" placeholder="Your email address...">
+                        <span class="btn" id="basic-addon2" style="background-color: #C4743E; color: white;"><i class="fa fa-paper-plane" aria-hidden="true"></i></span>
+                      </div>
+            </div>
+    
+        </div>
+        <div class="row" style="background-color: #E9E9E9;">
+            <p class="pt-1">Copyright © 2021 Hara. All Rights Reserved.</p>
+        </div>
+    </div>
+
+   
+
+</body>
+</html>

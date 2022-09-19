@@ -1,0 +1,379 @@
+
+body {
+    overflow-x: hidden;
+  }
+.home1{
+    background-image: url(./images/bg-slider-home2.jpeg);
+    background-size: cover;
+    background-position: right;
+
+}
+
+.icon-div{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    background-color: #FBEEE6;
+}
+.about-page{
+    background-image: url("../BOOTSTRAP PRJOECT/images/breadcrumb-page-02.jpg");
+    background-size: cover;
+    height: 250px;
+}
+.about-icon{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: #DFEFEF;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+}
+.offer_row{
+    width: 90%;
+}
+.offer_1{
+    background-image: url(./images/banner-home2-01-1.png);
+    background-size: contain; 
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+.offer_2{
+    background-image: url(./images/banner-home2-02-1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.offer_text{
+    padding: 20px;
+}
+.offer_btn{
+    background-color: black;
+    color: white;
+    padding: 4px 40px 4px;
+    border: none;
+
+}
+.offer_btn:hover{
+    background-color: #C4743E;
+    border: none;
+}
+.iframe{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* .icon2{
+    margin-top: 19px ;
+} */
+.home_div1{
+    height: 200px;
+    width: 400px;
+    position: absolute;
+    /* border: 1px solid red; */
+    /* margin-left: 38vw; */
+    left: 40%;
+    top: 25%;
+}
+.img1{
+    /* z-index: 2; */
+    margin-top: 0px;
+    /* border: 1px solid green; */
+}
+body{
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 10px;
+  margin-right: 10px;
+
+}
+.tab-pen-1{
+    height:auto;
+    text-align: left;
+    /* border:1px solid red; */
+}
+.tab-pen-2{
+    height:auto;
+    /* border:1px solid green; */
+}
+.tab-pen-3{
+    height:auto;
+    /* border:1px solid blue; */
+}
+.tab-card1{
+    border: none;
+    /* width: 600px; */
+
+}
+.tab-card1-img1{
+    border-right: 1px solid rgb(197, 192, 192);
+}
+.progress {
+    margin-top: 5px !important;
+    margin-bottom: 8px !important;
+}
+p{
+    margin-bottom: 0px;
+}
+.card1 i{
+    font-size: 10px !important;
+    color: #C4743E;
+}
+.bar{
+    background-color: #C4743E !important;
+}
+.bar_grey{
+    background-color: #EEEEEE !important;
+    
+}
+.tab-card1-img1 i{
+    font-size: 10px !important;    
+}
+.btn_none{
+    background-color: transparent;
+
+}
+.btn_none:focus{
+background-color: transparent;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+background-color: transparent;
+color: black;
+}
+.badge{
+    height: 20px;
+    width: 20px;
+    font-size: 10px;
+    background-color: #C4743E;
+}
+.nav-link{
+    color: black;
+}
+ .pro-car-row{
+    /* width: 100% !important; */
+    /* background-color: blue!important; */
+} 
+.dashblog{
+   
+    width: 100px;
+    height: 20px;
+    border: 2px solid black;
+    background: black;
+
+}
+.blognav{
+background: #F5F5F5;
+height: 100px;
+width: 100%;
+}
+.bloghome1:hover{
+    color: #C4743E;
+}
+
+.bg_grey{
+    background-color: #F5F5F5;
+    padding: 5px;
+    margin-top: 6px;
+    border-radius: 5px;
+}
+.bg_grey:hover{
+    background-color: #C4743E;
+    color: white;
+}
+
+
+
+body{
+    margin:0px;
+    padding:0px;    
+}
+.divsgift{
+    height: 40vh;
+    width: 100%;
+    background: red;
+    background-image: url('Images/blog-01.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.divsgift2{
+    background-image: url('Images/blog-02.jpg');
+
+}
+.divsgift3{
+    background-image: url('Images/blog-03.jpg');
+
+}
+.divsgift4{
+    background-image: url('Images/blog-04.jpg');
+
+}
+.divsgift5{
+    background-image: url('Images/blog-06.jpg');
+
+}
+.divsgift6{
+    background-image: url('Images/blog-07.jpg');
+
+}
+.divsgift7{
+    background-image: url('Images/blog-10.jpg');
+
+}
+.divsgift8{
+    background-image: url('Images/blog-14.jpg');
+
+}
+
+.octomber21{
+    background: white;
+    position: absolute;
+    top:20px;
+    left:0px;
+    width:160px;
+}
+.searchinp{
+    background: #F5F5F5;
+}
+.inpgray1{
+    background: #F5F5F5;
+    border: none;
+}
+.inpgray1 ::placeholder{
+    color:black;
+}
+.inputdivblog1{
+    border: 2px solid #F5F5F5;
+    width:1px solid gray;
+    width:90%;
+  
+}
+.inputdivblog1 li{
+    padding: 10px;
+  
+}
+.inputdivblog1 ul{
+    padding-left: 10px;
+    
+}
+.art_btn1{
+    background-color: #F5F5F5;
+    border: 1px solid grey;
+    border-radius: 4px;
+}
+.art_btn2{
+    border: none;
+    color: black;
+    padding: 12px;
+
+}
+.art_btn2:hover{
+    background-color: #F5F5F5 !important;
+    color: #C4743E;
+}
+
+.margin{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+
+
+@media screen and (max-width: 800px) {
+    .center{
+        text-align: center;
+        margin-bottom: 70px;
+    }
+    .input-group{
+      margin-top: 20px !important;  
+    }
+
+}
+.card-head{
+    border: none;
+}
+.homelatestdivs{
+    height: 45vh;
+    width:100%;
+    background: red;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+}
+.homelatestdivs1{
+    background-image: url('Images/one.jpg');  
+}
+.homelatestdivs2{
+    background-image: url('Images/two.jpg');  
+}
+.homelatestdivs3{
+    background-image: url('Images/three.jpg');  
+}
+.homelatestdivs4{
+    background-image: url('Images/four.jpg');  
+}
+.orangetext{
+color:orange;
+}
+.btn-2{
+    position: absolute;
+    color: white;
+    bottom: 10px;
+    width: 90%;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    left:13px;
+}
+.circlewhite{
+    position: absolute;
+width:50px;
+height: 50px;
+border-radius: 25px;
+border:2px solid black;
+right:5px;
+/* display: flex; */
+justify-content: center;
+align-items: center;
+display: none;
+}
+.homelatestdivs:hover .circlewhite{
+display: flex;
+}
+.circlewhite2{
+    top:70px;
+    right:5px;
+}
+.circlewhite3{
+    top:150px;
+    right:5px;
+}
+.btn-2{
+display: none;
+}
+.homelatestdivs:hover .btn-2{
+    display: block;
+    }
+
+.upper-div{
+    position: absolute;
+    height: 230px;
+    width: 500px;
+    background-color: white;
+    top: 180px;
+    left: 500px;
+}
+.below-div{
+    position: relative;
+}
+
+
+
+
+
+
+

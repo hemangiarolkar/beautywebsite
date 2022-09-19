@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>product page</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+    <div class="row" style="background-color: black;">
+        <div class="col-6" style="color: white;"> <i class="fa fa-envelope m-1" aria-hidden="true"></i> contact@example.com</div>
+        <div class="col-2" style="color: white;"> <i class="fa fa-clock-o" aria-hidden="true"></i> Mon-Fri: 10:00 - 18:00</div>
+        <div class="col-4" style="color: white;"> <i class="fa fa-map-marker" aria-hidden="true"></i> 25 West 21th Street, Miami FL, USA</div>
+    </div>
+        <div class="container">
+        <nav class="nav justify-content-between">
+            <a class="navbar-brand" href="#"><img src="images/logo-1.png"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <ul class="nav justify-content-center m-3">
+                    <li class="nav-item">
+                      <a class="nav-link" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Product</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                      </li>
+                  </ul>
+
+                  <ul class="nav">
+                    <button type="button" class="btn position-relative m-3" style="background-color: lightgray;">
+                        <i class="fa fa-search" aria-hidden="true"></i></button>
+                    <button type="button" class="btn position-relative m-3" style="background-color: lightgray;">
+                        <i class="fa fa-user-o" aria-hidden="true"></i></button>
+                    <button type="button" class="btn position-relative m-3" style="background-color: lightgray;">
+                        <i class="fa fa-heart-o" aria-hidden="true"></i>
+                        <span class="position-absolute top-0 start-100 translate-middle p-1 border border-light rounded-circle badge">
+                        0</span>
+                    </button>
+                    <button type="button" class="btn position-relative m-3" style="background-color: lightgray;">
+                        <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+                        <span class="position-absolute top-0 start-100 translate-middle p-1 border border-light rounded-circle badge">
+                        0</span>
+                    </button>
+                  </ul>
+          </nav>
+    
+    </div>
+
+    <div class="card text-center">
+        <div class="card-header">
+            <nav style="--bs-breadcrumb-divider: '-';" aria-label="breadcrumb">
+                <ol class="breadcrumb pt-2">
+                  <li class="breadcrumb-item active">Home</li>
+                  <li class="breadcrumb-item" aria-current="page">Nails</li>
+                </ol>
+              </nav>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row p-5 g-5">
+             <div class="col-6 img mt-4">
+                <div><img src="./images/product-30.jpeg" class="img-fluid"></div>
+                <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <div class="row d-flex justify-content-center">
+                        <div class="col-md-2">
+                      <img src="./images/product-01-100x100.jpeg" style="border: 1px solid lightgray;" alt="...">
+                    </div>
+                    <div class="col-md-2">
+                      <img src="./images/product-02-100x100.jpeg" style="border: 1px solid lightgray;" alt="...">
+                    </div>
+                    <div class="col-md-2">
+                      <img src="./images/product-04-100x100.jpeg" style="border: 1px solid lightgray;" alt="...">
+                    </div>
+                    <div class="col-md-2">
+                      <img src="./images/product-05-100x100.jpeg" style="border: 1px solid lightgray;" alt="...">
+                    </div>
+                    
+                  </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="row d-flex justify-content-center">
+                      <div class="col-md-2">
+                    <img src="./images/product-01-100x100.jpeg" style="border: 1px solid lightgray;" alt="...">
+                  </div>
+                  <div class="col-md-2">
+                    <img src="./images/product-02-100x100.jpeg" style="border: 1px solid lightgray;" alt="...">
+                  </div>
+                  <div class="col-md-2">
+                    <img src="./images/product-04-100x100.jpeg" style="border: 1px solid lightgray;" alt="...">
+                  </div>
+                  <div class="col-md-2">
+                    <img src="./images/product-05-100x100.jpeg" style="border: 1px solid lightgray;" alt="...">
+                  </div>
+                  
+                </div>
+                </div>
+                </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+
+              </div>
+              <div class="col-6 text-start pt-5 lh-lg">
+                <h5 class="pb-3" style="color: #C4743E;"><strong>$260.00</strong></h5>
+                <h4><strong>Applied Artwork</strong></h4>
+                <p><i class="fa fa-star" style="color: #F3D224;" aria-hidden="true"></i>
+                <i class="fa fa-star" style="color: #F3D224;" aria-hidden="true"></i>
+                <i class="fa fa-star" style="color: #F3D224;" aria-hidden="true"></i>
+                <i class="fa fa-star" style="color: #F3D224;" aria-hidden="true"></i>
+                <i class="fa fa-star" style="color: #F3D224; " aria-hidden="true"></i><small class="text-muted"> (3 customer reviews)  |  Sold: <strong style="color: black;">26</strong></small></p>
+                <!-- <div class="mid_line"></div> -->
+
+               <p>Not only is the toy bar shaped with funny animals on top, but it also has funny 
+                   <br>sounds that help children feel excited to help them learn to reflect, grasp, look at 
+                   <br>objects, very Good for brain development Made of high-quality fabric, with good 
+                   <br>sweat absorbency, helps prevent back heat, sweat when sleeping.</p>
+
+                <h6 style="color: #027D71;">44 in stock</h6>
+
+                <hr>
+
+                <div class="btn-group art_btn1" role="group" aria-label="Basic outlined example">
+                    <button type="button" class="btn btn-outline-primary art_btn2">-</button>
+                    <button type="button" class="btn btn-outline-primary art_btn2">1</button>
+                    <button type="button" class="btn btn-outline-primary art_btn2">+</button>
+                  </div>                <button type="button" class="btn btn-dark btn-lg">Add to cart</button>
+                <button type="button" style="background-color: #C4743E; border: none;" class="btn btn-info btn-lg">Buy now</button>
+
+                <h6 class="pt-5"><i class="fa fa-heart-o" aria-hidden="true"></i> Add to wishlist
+                    &#8646 Add to compare</h6>
+                </div>
+            </div>
+          </div>
+           
+    <hr>
+
+    <!-- <nav class="nav">
+        <a class="nav-link" href="#tab-description" style="color: black;">Description</a>
+        <a class="nav-link" href="#" style="color: black;">Reviews(3)</a>
+        <a class="nav-link" href="#" style="color: black;">Questions & Answers</a>
+      </nav>
+      
+      <div class="container pt-5" style="border: 1px solid black;" id="tab-description">
+          <p class="lh-lg text-start">Vibration chair / swing chair helps our Angels go to sleep quickly and smoothly, more deeply
+              <br>Not only is the toy bar shaped with funny animals on top, but it also has funny sounds that help children feel excited to help them learn to reflect, grasp, look at
+              <br>objects, very Good for brain development Made of high-quality fabric, with good sweat absorbency, helps prevent back heat, sweat when sleeping.
+              <br>Mothers can free their hands to do more housework than to reduce the burden of taking care of their children
+          </p>
+        <div class="row">
+        <div class="col-6">
+            <img src="./images/single-product-01.png" class="img-fluid">
+        </div>
+        <div class="col-6">
+            <img src="./images/single-product-02.png" class="img-fluid">
+        </div>
+      </div>
+  <h5 class="text-start pt-3"><strong>For Normal, Oily, Combination Skin Types</strong></h5>
+  <p class="text-start">Complexion-perfecting natural foundation enriched with antioxidant-packed superfruits, vitamins, and other skin-nourishing nutrients. Creamy liquid formula sets
+    <br>with a pristine matte finish for soft, velvety smooth skin.
+    <br>
+    <br>
+    Say hello to flawless, long-lasting foundation that comes in 7 melt-into-your-skin shades. This lightweight, innovative formula creates a smooth, natural matte finish
+    <br>that won’t settle into lines. It’s the perfect fit for your skin. 1 fl. oz.
+  </p>
+  <h4 class="text-start"><strong>Benefits</strong></h4>
+  <div class="text-start">
+    <ul>
+    <li>Buildable medium-to-full coverage</li>
+    <li>Weightless, airy feel—no caking!</li>
+    <li>Long-wearing</li>
+    <li>Evens skin tone</li>
+    <li>Available in 07 shades (all exclusive to Makeaholic!)</li>
+  </ul></div>
+  <div class="container-fluid">
+    <div class="row p-3" style="background-color: #FAF2E4;">
+      <div class="col-4">
+        <h6 style="color: #027D71;"><strong>Study history up to 30 days</strong></h6>
+
+      </div>
+      <div class="col-4">
+        <h6 style="color: #027D71;"><strong>Study history up to 30 days</strong></h6>
+
+      </div>
+      <div class="col-4">
+        <h6 style="color: #027D71;"><strong>Study history up to 30 days</strong></h6>
+
+      </div>
+    </div>
+
+  </div>
+  <br>
+  <table class="table table-bordered text-start">
+   
+    <tbody>
+      <tr>
+        <td style="background-color: #F5F5F5;">Color</td>
+        <td>Gold Shimmer, Peach, Rose</td>
+      </tr>
+      <tr>
+        <td style="background-color: #F5F5F5;">Size</td>
+        <td>Full size, Mini size</td>
+      </tr>
+      <tr>
+        <td style="background-color: #F5F5F5;">Dimensions</td>
+        <td>90 x 60 x 90 cm</td>
+      </tr>
+      <tr>
+        <td style="background-color: #F5F5F5;">Storage</td>
+        <td>Relaxed fit shirt-style dress with a rugged</td>
+      </tr>
+    </tbody>
+  </table>
+  <p class="text-start">We’re in love with our Smoothing Cleanser, but we’ve got the independent clinical data to back it up too. In a 7-day independent clinical study testers found…</p>
+  <div class="container-fluid">
+    <div class="row text-start">
+      <div class="col-4">
+        <h2><strong>37%</strong></h2>
+        <p>Reduction in excess sebum on the skin</p>
+      </div>
+      <div class="col-4">
+        <h2><strong>57%</strong></h2>
+        <p>Increase in skin moisture</p>
+
+      </div>
+      <div class="col-4">
+        <h2><strong>57%</strong></h2>
+        <p>Increase in skin moisture</p>
+
+      </div>
+
+    </div>
+  </div>
+</div> -->
+
+<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Description</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Reviews (3)</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Questions & Answers</button>
+  </li>
+</ul>
+
+<div class="tab-content" id="pills-tabContent">
+  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+
+    <div class="container  tab1 pt-4 pb-5 mb-5" style="border: 1px solid black;" >
+          <p class="lh-lg text-start">Vibration chair / swing chair helps our Angels go to sleep quickly and smoothly, more deeply
+            <br>Not only is the toy bar shaped with funny animals on top, but it also has funny sounds that help children feel excited to help them learn to reflect, grasp, look at
+            <br>objects, very Good for brain development Made of high-quality fabric, with good sweat absorbency, helps prevent back heat, sweat when sleeping.
+            <br>Mothers can free their hands to do more housework than to reduce the burden of taking care of their children
+        </p>
+      <div class="row">
+      <div class="col-6">
+          <img src="./images/single-product-01.png" class="img-fluid">
+      </div>
+      <div class="col-6">
+          <img src="./images/single-product-02.png" class="img-fluid">
+      </div>
+      </div>
+      <h5 class="text-start pt-3"><strong>For Normal, Oily, Combination Skin Types</strong></h5>
+      <p class="text-start">Complexion-perfecting natural foundation enriched with antioxidant-packed superfruits, vitamins, and other skin-nourishing nutrients. Creamy liquid formula sets
+      <br>with a pristine matte finish for soft, velvety smooth skin.
+      <br>
+      <br>
+      Say hello to flawless, long-lasting foundation that comes in 7 melt-into-your-skin shades. This lightweight, innovative formula creates a smooth, natural matte finish
+      <br>that won’t settle into lines. It’s the perfect fit for your skin. 1 fl. oz.
+      </p>
+      <h4 class="text-start"><strong>Benefits</strong></h4>
+      <div class="text-start">
+      <ul>
+      <li>Buildable medium-to-full coverage</li>
+      <li>Weightless, airy feel—no caking!</li>
+      <li>Long-wearing</li>
+      <li>Evens skin tone</li>
+      <li>Available in 07 shades (all exclusive to Makeaholic!)</li>
+      </ul></div>
+      <div class="container-fluid">
+      <div class="row p-3" style="background-color: #FAF2E4;">
+      <div class="col-4">
+      <h6 style="color: #027D71;"><strong>Study history up to 30 days</strong></h6>
+
+      </div>
+      <div class="col-4">
+      <h6 style="color: #027D71;"><strong>Study history up to 30 days</strong></h6>
+
+      </div>
+      <div class="col-4">
+      <h6 style="color: #027D71;"><strong>Study history up to 30 days</strong></h6>
+
+      </div>
+      </div>
+
+      </div>
+      <br>
+      <table class="table table-bordered text-start">
+
+      <tbody>
+      <tr>
+      <td style="background-color: #F5F5F5;">Color</td>
+      <td>Gold Shimmer, Peach, Rose</td>
+      </tr>
+      <tr>
+      <td style="background-color: #F5F5F5;">Size</td>
+      <td>Full size, Mini size</td>
+      </tr>
+      <tr>
+      <td style="background-color: #F5F5F5;">Dimensions</td>
+      <td>90 x 60 x 90 cm</td>
+      </tr>
+      <tr>
+      <td style="background-color: #F5F5F5;">Storage</td>
+      <td>Relaxed fit shirt-style dress with a rugged</td>
+      </tr>
+      </tbody>
+      </table>
+      <p class="text-start">We’re in love with our Smoothing Cleanser, but we’ve got the independent clinical data to back it up too. In a 7-day independent clinical study testers found…</p>
+      <div class="container-fluid">
+      <div class="row text-start">
+      <div class="col-4">
+      <h2><strong>37%</strong></h2>
+      <p>Reduction in excess sebum on the skin</p>
+      </div>
+      <div class="col-4">
+      <h2><strong>57%</strong></h2>
+      <p>Increase in skin moisture</p>
+
+      </div>
+      <div class="col-4">
+      <h2><strong>57%</strong></h2>
+      <p>Increase in skin moisture</p>
+
+      </div>
+
+      </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+
+    <div class="container tab-pen2">
+      <div class="tab-pen-1 pt-3">
+        <h4>3 reviews for Applied Artwork</h4>
+        
+        <div class="card tab-card1 mb-3" style="max-width: 540px;"  >
+          <div class="row g-0 pt-5">
+
+            <div class="col-md-4  tab-card1-img1">
+              <h2 style="color: #C4743E;">5.00</h2>
+              <p>based on 3 reviews</p>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+            </div>
+            
+            <div class="col-md-8">
+                <div class="card-body card1">
+
+                <div class="row" > 
+
+                  <div class=" col-4 col-md-3"  >
+
+                    <div class="row">
+                      <div class="col-12">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <div class="col-12">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <div class="col-12">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-12">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-12">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                      </div>
+                    </div>
+                  
+                  </div>
+
+                  <div class=" col-7 col-md-8  tab-card1-row" >
+                    <div class="progress ">
+                      <div class="progress-bar bar" role="progressbar" style="width: 100%"  aria-valuenow="100">100%</div>
+                    </div>
+                    <div class="progress">
+                      <div class="progress-bar bar_grey" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">0%</div>
+                    </div>
+                    <div class="progress">
+                      <div class="progress-bar bar_grey" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">0%</div>
+                    </div>
+                    <div class="progress">
+                      <div class="progress-bar bar_grey" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">0%</div>
+                    </div>
+                    <div class="progress">
+                      <div class="progress-bar bar_grey" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">0%</div>
+                    </div>
+                  </div>
+                  <div class="col-1 tab-card1-row" >
+                    <p>1</p>
+                    <p>2</p>
+                    <p>3</p>
+                    <p>4</p>
+                    <p>5</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="d-grid gap-2 d-md-block">
+              <button class="btn" style="background-color: #C4743E; color: white;" type="button">With images (2)</button>
+              <button class="btn" style="background-color: white; color: black; border: 1px solid grey;" type="button">Verified (0)</button>
+              <button class="btn" style="background-color: #C4743E; color: white;" type="button">All stars (2)</button>
+            </div>
+          </div>
+        </div>
+
+        <hr>
+        
+      </div>
+      <div class="tab-pen-2 pt-2">
+        <div class="card mb-3" style="border: none;">
+          <div class="row g-0">
+            <div class="col-md-2">
+              <img src="./images/75d23af433e0cea4c0e45a56dba18b30.png" class="rounded-start" alt="">
+            </div>
+            <div class="col-md-10">
+              <div class="card-body">
+                <h5 class="card-title text-start"><strong>admin</strong></h5><p class="text-start"><small class="text-muted">October 20, 2021</small>
+              <br><i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i></p>
+                <p class="card-text text-start">Very Good customer support. Immediate response. Theme Looks great.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr>
+        <div class="card mb-3" style="border: none;">
+          <div class="row g-0">
+            <div class="col-md-2">
+              <img src="./images/75d23af433e0cea4c0e45a56dba18b30.png" class="rounded-start" alt="...">
+            </div>
+            <div class="col-md-10">
+              <div class="card-body">
+                <h5 class="card-title text-start"><strong>admin</strong></h5><p class="text-start"><small class="text-muted">October 20, 2021</small>
+              <br><i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i></p>
+                <p class="card-text text-start">Easy to setup (if you follow the doc) and awesome design !
+                  <br>Mobile version is really good !
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr>
+        <div class="card mb-3" style="border: none;">
+          <div class="row g-0">
+            <div class="col-md-2">
+              <img src="./images/75d23af433e0cea4c0e45a56dba18b30.png" class="rounded-start" alt="...">
+            </div>
+            <div class="col-md-10">
+              <div class="card-body">
+                <h5 class="card-title text-start"><strong>admin</strong></h5><p class="text-start"><small class="text-muted">October 20, 2021</small>
+              <br><i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i></p>
+                <p class="card-text text-start">Beautiful theme. Love it.
+                  <br>Keep update & improve
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tab-pen-3">
+       <h5 class="text-start"><strong>Add a review</strong></h5> 
+       <p class="text-start">Review now to get coupon!</p>
+       <p class="text-start">Your email address will not be published. Required fields are marked <span style="color: red;">*</span></p>
+       <br>
+       <p class="text-start">Your rating<span style="color: red;">*</span></p>
+       <p class="text-start pt-3">Your review<span style="color: red;">*</span></p>
+       <textarea id="comment" name="comment" cols="45" rows="8" class="d-flex justify-content-start" style="background-color: #F5F5F5; border: none;"></textarea>
+       <p class="text-start">Choose pictures (maxsize: 2000 kB, max files: 2)</p>
+       <div class="text-start pt-1"><button class="rounded" style="border: 1px solid black;">Choose files</button> No file chosen</div>
+       <div class="d-flex">
+         <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Name<span style="color: red;">*</span></label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+      </div>
+      <div class="">
+        <label for="exampleFormControlInput1" class="form-label">Email<span style="color: red;">*</span></label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+      </div></div>
+      <div class="form-check text-start">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+        <label class="form-check-label" for="flexCheckDefault">
+          Save my name, email, and website in this browser for the next time I comment.
+        </label>
+      </div>
+      <input class="btn d-flex justify-content-start pt-1" style="background-color: #C4743E; color: white;" type="submit" value="Submit">
+    </div>
+  </div>
+</div>
+  <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+    <h5 class="text-start"><strong>Questions and answers of the customers</strong></h5>
+    <p class="text-start">There are no questions yet, be the first to ask something for this product.</p>
+    <div class="col-6">
+    <div class="input-group pt-1">
+    <input type="text" class="form-control" placeholder="Do you have any question? Ask now!" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+    <span class="input-group-text" style="background-color: #C4743E; color: white;" id="inputGroup-sizing-lg">ASK</span></div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container-fluid" style="background-color: #F5F5F5;">
+  <div class="row m-5 pt-5">
+      <div class="col-12 col-lg-3 center">
+          <h4>Contact Us</h4>
+          <p>If you have any question, please contact us at support@example.com</p>
+      </div>
+      <div class="col-12 col-lg-3 center">
+          <h4>Store Location</h4>
+          <p>Address: 25 West 21th Street, Miami FL, USA </p>
+          <h4>Open Hours</h4>
+          <p>Monday – Saturday: 8:00 am – 4:00pm
+              Sunday: Close</p>
+
+      </div>
+      <div class="col-12 col-lg-3 center">
+          <h4>Quick Links</h4>
+          <ul>
+              <li>Shipping & Returns</li>
+              <li>Privacy Policy</li>
+              <li>Term Of Use</li>
+              <li>Wishlist</li>
+              <li>Compare</li>
+              <li>Subscribe</li>
+          </ul>
+
+      </div>
+      <div class="col-12 col-lg-3 center">
+          <h4>Sign Up for Our Newsletter</h4>
+          <p>Leave your email to get all hot deals & news 
+              <br>which benefit you most!</p>
+              <div class="input-group mb-3">
+                  <input type="text" class="form-control" style="border: none;" placeholder="Your email address...">
+                  <span class="btn" id="basic-addon2" style="background-color: #C4743E; color: white;"><i class="fa fa-paper-plane" aria-hidden="true"></i></span>
+                </div>
+      </div>
+
+  </div>
+  <div class="row" style="background-color: #E9E9E9;">
+      <p class="pt-1">Copyright © 2021 Hara. All Rights Reserved.</p>
+  </div>
+</div>
+
+
+
+</body>
+</html>
